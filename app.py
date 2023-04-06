@@ -49,5 +49,5 @@ def detect():
         object_height = 121 * float(h / height)
         return render_template('result.html', object_height=object_height, filename=filename)
 
-if __name__ == '__main__':
+if __name__ =="__main__":
     app.run(host='0.0.0.0', port=8080, debug=True)
